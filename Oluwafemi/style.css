@@ -1,0 +1,471 @@
+/*
+Global style
+*/
+
+body{
+  margin: 0;
+  padding: 0;
+  font: 16px/1.5  arial, helvetica, sans-serif;
+  background: rgba(111, 111, 200, 0.1);
+} 
+
+#container{
+  width: 95%;
+  margin: auto;
+}
+
+hr{
+  border-bottom: 2px solid darkblue;
+}
+
+
+/* 
+Styling the header content
+*/
+
+header{
+  width:100%;
+  min-height: 100px; 
+  background: #057a00;
+  border-bottom: 3px solid darkblue;
+  margin-bottom: 40px;
+
+}
+
+.siteLogo{
+  box-sizing: border-box;
+  float: left;
+  padding: 0 5px;
+  background: green;
+  width: 20%;
+
+
+}
+
+.siteLogo h1{
+  color: #fff;
+  font-size: 30px;
+  font-family: fantasy;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+.siteLogo span{
+  color: darkgreen;
+  background: white;
+  margin: 4px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.sitenav{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 50%;
+
+  
+}
+
+.sitenav ul{
+  list-style: none;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  width: 70%;
+
+
+}
+
+.sitenav ul li{
+  display: inline-block;
+  margin: 0 20px;
+  background: rgba(200, 255, 250, 0.1);
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.sitenav ul li a{
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  text-decoration: none;
+  text-align: center;
+}
+
+.sitenav ul li a:hover{
+  color: #f00;
+
+}
+
+.searchBox{
+  width: 25%;
+  float: right;
+  margin-top: 30px;
+}
+
+.searchBox form{
+  margin-top: 24px;
+  box-sizing: border-box;
+  background: rgba(0, 255, 0, 0.2);
+  padding: 5px;
+  border-radius: 25px;
+}
+
+.searchBox input[type="text"]{
+  color: darkgreen;
+  font-size: 18px;
+  font-family: sans-serif;
+  padding: 5px;
+  border: none;
+  border-radius: 15px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.searchBox button{
+  color:#fff;
+  border: none;
+  border-radius: 5px;
+  background: darkblue;
+  padding: 3px;
+  margin: 0 7px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.searchBox button:hover{
+  background: #f0fff0;
+  margin-top: 4px;
+  color: black;
+}
+
+/* 
+Styling the showcase
+*/
+
+.bookShowcase{
+  box-sizing: border-box;
+  margin: auto;
+  width: 65%;
+  min-height: 350px;
+  background: url("./images/showcase.jpeg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+
+}
+
+.bookShowcase h1{
+  display: inline-block;
+  background: rgba(0, 0, 10, 0.5);
+  color: #fff;
+  font-size: 45px;
+  font-family: serif;
+  margin: 0 120px;
+  padding: 5px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.bookShowcaseText1{
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0 22%;
+  margin-top: 55px;
+  
+}
+
+.bookShowcase p{
+  font-size: 18px;
+  background: rgba(0, 0, 0, 0.5);
+  text-transform: capitalize;
+  text-align: center;
+  color: whitesmoke;
+  padding: 2px;
+}
+
+
+/* Most read books / latest styling*/
+
+.latestItems{
+  margin-left: 2%;
+  padding: 0 55px;
+
+}
+
+.latestItems h1{
+  margin-left: -50px;
+  text-align: center;
+  text-transform: capitalize;
+  color: darkgreen;
+  font-size: 35px;
+  font-family: monospace ;
+}
+
+.latestItems .items{
+ display: inline-block;
+ background: rgba(0, 150, 0, 0.2);
+ width: 12%;
+ min-height: 145px;
+ margin: 5px 12px;
+}
+
+.items img{
+  width: 100%;
+  height: 150px;
+}
+
+
+
+.items h3{
+  font-size: 17px;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  color: white;
+  margin: 3 auto;
+}
+
+.items p{
+  color: darkgreen;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: monospace;
+  font-size: 18px;
+}
+
+
+.items a{
+  text-transform: capitalize;
+  float: right;
+  text-decoration: none;
+  color: whitesmoke;
+  background: rgba(0, 100, 65, 0.5);
+  text-align: center;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.items a:hover{
+  color: white;
+  background: seagreen;
+}
+
+/* Side bar styling */
+
+.sideBar{
+  width: 35%;
+  float: right;
+   }
+
+.sideBar h1{
+  margin:0 0;
+  color: darkgreen;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 35px;
+  font-family: monospace;
+
+
+}
+
+.sideBar ul{
+  list-style: none;
+  padding: 0 15px;
+
+}
+
+.sideBar  li{
+  font-size: 15px;
+  line-height: 3;
+  background: rgba(0, 200, 0, 0.6);
+  margin: 5px 0px;
+  text-transform: capitalize;
+  text-align: center;
+  color: white;
+  padding: 0 5px;
+  border-bottom: 4px solid seagreen;
+
+}
+
+.sideBar  li a{
+  background: rgba(10, 90, 0, 0.2);
+  font-weight: normal;
+  text-transform: capitalize;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin: 0 5px;
+  padding: 5px;
+  border-radius: 9px;
+}
+
+.sideBar  li a:hover{
+  color: green;
+}
+
+/* 
+sidebar news letter styling
+*/
+
+.sideBar .newsLeter{
+  margin: 0 5px;
+  background: lightgreen;
+
+}
+
+.sideBar .newsLeter h2{
+  background: green;
+  color: white;
+  font-size: 25px;
+  font-family: monospace;
+  padding: 5px 0;
+  text-transform: capitalize;
+  text-align: center;
+
+}
+
+.newsLeter form{
+  background: rgba(0, 200, 60, 0.4);
+  padding: 15px;
+  margin: 0 37px;
+  width: 75%;
+  min-height: 100px;
+
+}
+
+
+.newsLeter form input{
+  padding: 9px;
+  margin: 9 0;
+  display: block;
+  width: 95%;
+  border: none;
+  border-bottom: 3px solid darkblue;
+  border-radius: 15px;
+  color: green;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 14px;
+  font-family: sans-serif;
+  background: snow;
+
+}
+
+ ::placeholder{    
+  color: darkgreen;
+  margin: 0 14px;
+
+}
+
+
+.newsLeter form input:focus{
+  border-bottom: 3px solid darkblue;
+  outline: none;
+}
+
+
+.newsLeter button{
+  padding: 15px;
+  border:none;
+  width: 95%;
+  margin-top: 25px;
+  background: lightgreen;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bol;
+  font-family: sans-serif;
+  border-radius: 15px;
+  color: white;
+}
+
+
+/* 
+Styling the leadersboard 
+*/
+
+.topReader{
+  background: rgba(111, 111, 200, 0.1);
+  padding-bottom: 15px;
+} 
+
+.topReader .top1{
+  border-radius: 25px;
+  display: inline-block;
+  width: 25%;
+  min-height: 300px;
+  background: rgba(0, 255, 0, 0.3);
+  margin: 0 45px;
+}
+
+.topReader h3{
+  background:seagreen;
+  padding: 15px;
+  text-transform: capitalize;
+  text-align: center;
+  color: white;
+  font-family: monospace;
+  font-size: 30px;
+
+}
+
+.topReader img{
+  width: 120px;
+  height: 125px;
+  border-radius: 100%;
+  margin-left: 32%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+.topReader h4{
+  text-transform: capitalize;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.5);
+  width: 45%;
+  margin: auto;
+  color: darkgreen;
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: bold;
+
+}
+
+.topReader p{
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: darkgreen;
+  text-align: center;
+  text-transform: capitalize;
+
+}
+
+.topReader a{
+  text-decoration: none;
+  margin-left: 5px;
+  background: green;
+  color: white;
+  font-size: 14px;
+  font-family: monospace;
+  font-weight: normal;
+  border-radius: 15px;
+  padding: 3px;
+  text-transform: lowercase;
+
+}
+
+footer{
+  padding: 15px;
+  background: seagreen;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: darkgreen;
+
+}
